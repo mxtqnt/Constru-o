@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0px;
+    overflow: hidden;
+    user-select: none;
+}
+
+
+body{
+    background-color: #151C48;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+a.button {
+    font-size: 1rem;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.informativo {
+    width: 40%;
+    padding: 60px ;
+}
+
+.imagem{
+    width: 30%;
+    padding: 40px;
+    justify-content: end;
+}
+
+h1{ 
+    font-weight: 800;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.redes{
+    margin-top: 100px;
+    gap: 2rem;
+    display: flex;
+}
+
+.redesimg{
+    width: 30px;
+    height: 30px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+
+@media screen and (max-width: 1203px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .informativo {
+        width: 60%;
+        padding-left: 60px ;
+    }
+    
+    .redesimg{
+        width: 20px;
+        height: 20px;
+    }
+
+    a.button {
+        padding: 5px 24px;
+        border: 1px solid #fff;
+    }
+
+    .imagem{
+        display: none;
+    }
+
+}
